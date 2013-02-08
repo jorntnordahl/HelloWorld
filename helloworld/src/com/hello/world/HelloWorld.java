@@ -20,6 +20,8 @@ public class HelloWorld
    */
   public static void main(String[] args)
   {
+    // why?
+
     System.out.println("Hello World: " + new Date().toLocaleString());
     // why is this not working???
     for(int i = 0; i < 10; i++)
@@ -29,5 +31,4 @@ public class HelloWorld
 
     // and another change by myself...
   }
-
 }
