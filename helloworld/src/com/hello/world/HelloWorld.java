@@ -22,6 +22,10 @@ public class HelloWorld
   {
     System.out.println("Hello World: " + new Date().toLocaleString());
     // why is this not working???
+    for(int i = 0; i < 10; i++)
+    {
+      System.out.println("Hello again!!!");
+    }
   }
 
 }
